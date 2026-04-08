@@ -5,6 +5,22 @@ body {
 
 header {
     background-color: #1f2937;
+    padding: 16px 144px 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
 }
 
 .icon {
@@ -14,6 +30,10 @@ header {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 a {
@@ -22,31 +42,83 @@ a {
     color: #e5e7eb;
 }
 
+.link-two {
+    padding: 0px 32px;
+}
+
 h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #1f2937;
+    width: 192px;
+    padding-top: 8px;
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button-one {
+    border: none;
+}
+
+.title {
+    width: 50%;
+}
+
+.title-information {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .image {
     background-color: grey;
     color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+.information {
+    text-align: center;
+    padding: 48px 144px 96px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+p {
+    margin: 0;
+}
+
+blockquote {
+    margin: 0;
+    font-style: italic;
+    width: 900px;
 }
 
 .blockquote {
@@ -54,19 +126,65 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    padding: 96px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .illustration {
+    border: 4px solid;
     border-color: #3882f6;
+    border-radius: 16px;
+    height: 192px;
+    width: 192px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thor {
+    text-align: end;
+    font-weight: bold;
 }
 
 .sign-up {
     background-color: #3882f6;
+    border-radius: 8px;
     color: white;
+    margin: 96px 144px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    padding: 48px 96px;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button-two {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    height: 32px;
+    margin-right: 96px;
 }
 
 footer {
-    height: 48px;
+    height: 96px;
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
